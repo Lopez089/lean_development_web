@@ -1,0 +1,143 @@
+@import "../less/bootstrap.less";
+
+/* anchos del header y el menu segun las pantallas*/
+
+@alto-header-tv: 100% ;
+@alto-header-pc_mini: 100% ;
+@alto-header-tablet: 50%;
+@alto-header-movil: 50% ;
+
+/*Estilos Generales*/
+
+html{
+
+	height: 100%;
+	body{
+		height: ;
+		header{
+			font-family: 'Josefin Sans', sans-serif;
+			/*height: 100%;*/
+			background: url(../img/libertad.jpg) ;
+			background-size: cover;
+			/*background-position-x: -500px;
+			background-position-y: -137px;*/
+			color: #f5eeec;
+			.contenedor{
+				.portada{
+					margin: 50px 0px 50px 0px;
+					text-align: center;
+					h1{
+						font-size: 44px;
+						letter-spacing: 0px;	
+						span{
+							color: #c57a3d;
+						};
+					};
+				};
+				.formulario{
+					border-radius: 6px;
+    				background: rgba(133,140,149,0.50);
+					.caracteristicas{
+						margin-top: 52px;
+						font-size: 18px;
+						letter-spacing: 2px;
+						p{
+							margin-bottom: 25px;
+						};
+						ul{
+							li{
+								list-style: none;
+								margin-bottom: 25px;
+								line-height: 25px;
+								p{
+
+								};
+							};
+							li:before{
+								content: "⊙";
+								color: #c57a3d;
+								margin-left: -33px;
+    							font-size: 30px;
+   								 position: absolute;
+							};
+						};
+					};
+					form{
+						/*display: flex;
+	    				flex-direction: column;
+	    				align-items: center;*/
+	    				font-size: 20px;
+						letter-spacing: 1px;
+						margin-top: 52px;
+						p{
+							font-size: 18px;
+							margin-bottom: 18px;
+						};
+						input{
+							width: 80%;
+							height: 40px;
+							border-radius: 6px;
+							margin-bottom: 10px;
+							border: 1px solid #666b73;
+							padding-left: 10px;
+						};
+						input:focus{
+							color: #858c95;
+						}
+						.boton{
+							background:#c57a3d;
+							color: #f5eeec;
+							height: 60px;
+
+							border: 2px solid #c57a3d;
+						};
+						.boton:hover{
+							border: 2px solid #f5eeec;
+						}
+					};
+				};
+				.social{
+					margin-top: 82px;
+					article{
+						margin-bottom: 50px;
+						img{
+							width: 178px;
+    						height: 150px;
+						};
+						blockquote{
+							font-size: 14px;
+							letter-spacing: 1px;
+							line-height: 21px;
+							p{
+
+							};
+							footer{
+									color: #858c95;
+								cite{
+									
+								};
+							};
+						};
+					};
+				};
+			};
+		};
+	};
+};
+
+/*Escritorio Grande y tv
+@media (min-width: 1200px){
+	body {color:red;}
+};
+Escritorios pequeños o tablet 
+@media (min-width: 768px) and (max-width: 979px) {
+	body {color:green;}
+};
+Tablet o smartphone
+@media (max-width: 767px) {
+	body {color:blue;}
+};
+Smartpnone 
+@media(max-width: 480px) {
+	body {color:yellow;}
+};*/

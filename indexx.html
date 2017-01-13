@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/style.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/resposnd/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="contenedor container">
+        <div class="portada">
+          <h1>En breve lanzaremos <br> <span>lean development web</span></h1>
+        </div>
+        <section class="formulario col-md-12">
+          <div class="caracteristicas col-md-6">
+            <p>¿En que te puodemos ayudar?</p>
+            <ul>
+              <li><p> Una web personalizada para vender tus productos o servicios en internet</p></li>
+              <li><p>Definiremos tus objetivos en internet</p></li>
+              <li><p>Obtimizaremos tu web hasta consegir los objetivos marcados</p></li>
+            </ul>
+          </div>
+          <form name="contactform" method="post" action="send_form_email.php"  class="col-md-6">
+            <p>Dejanos tu email para que te avise del lanzamiento</p>
+            <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+            <input type="mail" name="email" id="email" placeholder="Email">
+            <input class="boton" type="submit" value="Avísame cuando lances" onclick="funcion();">
+          </form>
+        </section>
+        <div class="clearfix"></div>
+        <section class="social" >
+          <article class="col-md-12">
+            <img class="col-md-3 img-circle" src="img/Barba-segun-la-cara.jpg" alt="foto">
+            <blockquote class="col-md-9">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, praesentium? Saepe, possimus nostrum accusamus eligendi odit neque corporis delectus tempore, expedita excepturi totam vitae ut. Id esse, fugit doloremque nemo?.</p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+          </article>
+          <article class="col-md-12">
+            <img src="img/Barba-segun-la-cara.jpg" alt="foto" class="col-md-3 img-circle" height="105" width="105">
+            <blockquote class="col-md-9">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque saepe fugiat ipsam, placeat esse eligendi ratione unde, corporis, quae autem quis doloremque fugit, nulla doloribus enim voluptas sunt sit quas!</p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+          </article>
+        </section>
+      </div>
+    </header>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
