@@ -1,2 +1,2 @@
 # landingpageDesarrolloWeb1
-Landing page para probar mi servicio de desarrollo web Prueba1n,
+Este Proyecto es una landing page para una empresa de desarrollo web. Fue creada En El año 2016. Para su Realización se usaron Tecnología Como HTML, CSS, Less, Bootstrap.
